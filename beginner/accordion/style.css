@@ -1,0 +1,29 @@
+.accordion {
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+.pergunta {
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.resposta {
+    display: none;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.item.ativo .resposta {
+    display: block;
+}
